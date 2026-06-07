@@ -1,4 +1,6 @@
-public class PrivateConstructor
+package concepts;
+
+class PrivateConstructor
 {
     private PrivateConstructor()
     {
@@ -10,9 +12,9 @@ public class PrivateConstructor
         return new PrivateConstructor();
     }
 
-    public staic void main(String[] args)
+    public static void main(String[] args)
     {
-    PrivateConstructor obj = PrivateConstructor.createINstance();
+        PrivateConstructor obj = PrivateConstructor.createINstance();
     }
 
 }
